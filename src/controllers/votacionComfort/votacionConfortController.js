@@ -11,9 +11,9 @@ const updateVotacion = async(req, res) => {
             let nivelComfort = data_from_page.nivel;
 
             //  la temperatura y el estado del AC
-            const tempResponse = await fetch('http://localhost:5000/api/v1/ac/temp');
+            const tempResponse = await fetch('http://200:126.13.206:5000/api/v1/ac/temp');
             const tempData = await tempResponse.json();
-            const estadoResponse = await fetch('http://localhost:5000/api/v1/ac/estado');
+            const estadoResponse = await fetch('http://200:126.13.206:5000/api/v1/ac/estado');
             const estadoData = await estadoResponse.json();
 
             const now = new Date();
