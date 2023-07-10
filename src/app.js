@@ -12,7 +12,7 @@ const port = config.server.port;
 const server = require('http').createServer(app);
 const io = require('socket.io')(server, {
     cors: {
-        origin: ['http://localhost:5173'],
+        origin: ['http://200.126.14.234'],
         methods: ['GET', 'POST']
     }
 });
