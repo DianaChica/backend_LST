@@ -1,7 +1,7 @@
 const config = {
     database: {
-        name: 'admin',
-        uri: 'mongodb://root:root1234@200.126.14.234:27017/admin'
+        name: 'your_dbname',
+        uri: 'your_urlconnection'
     },
     server: {
         port: 8080
