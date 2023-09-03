@@ -10,6 +10,7 @@ El backend ofrece varias funcionalidades esenciales para el proyecto de Votacion
 
 #### Dependencias
 
+Una vez clonado el repositorio y entrando a la carpeta de lo clonado debes instalar ciertas dependencias.
 Para instalar todas las dependencias necesarias, debes ejecutar el siguiente comando en tu terminal:
 
 ```bash
